@@ -10627,4 +10627,26 @@ MobileTab:AddButton({
   	end    
 })
 
+PopularTab:AddButton({
+	Name = "Test if Scripthub is working",
+	Callback = function()
+        OrionLib:MakeNotification({
+            Name = "Test completed",
+            Content = "LuaU and LuaC are working!",
+            Image = "rbxassetid://4483345998",
+            Time = 10
+        })
+        
+        --[[
+        Title = <string> - The title of the notification.
+        Content = <string> - The content of the notification.
+        Image = <string> - The icon of the notification.
+        Time = <number> - The duration of the notfication.
+        ]]
+  	end    
+})
 
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
