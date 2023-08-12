@@ -11038,7 +11038,7 @@ local versionTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-versionTab:AddParagraph("Version","0.7")
+versionTab:AddParagraph("Version","0.8")
 versionTab:AddParagraph("Additional Info","Pre-Beta")
 
 local fakeerrorTab = Window:MakeTab({
@@ -11048,3 +11048,98 @@ local fakeerrorTab = Window:MakeTab({
 })
 
 fakeerrorTab:AddParagraph("1 errors","❌Didnt find Workspace/chat.lua.")
+
+OFTab:AddButton({
+	Name = "spidorr autowinnin",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SimplexityButGithub/spidorautowin/main/main.lua'))()
+  	end    
+})
+
+local ObbyTab = Window:MakeTab({
+	Name = "🚩Obbys",
+	Icon = "",
+	PremiumOnly = false
+})
+
+ObbyTab:AddButton({
+	Name = "ALL gamepasses for free in PlatinumFalls/fat paps obbys",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/StroobWasTaken/Get-All-Gamepasses/main/mainscript_obf.lua'))()
+  	end    
+})
+
+ObbyTab:AddButton({
+	Name = "Mega Easy Obby Script",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/X361rzKq"))()
+    end
+})
+
+ObbyTab:AddButton({
+	Name = "Impossible Glass Bridge Script",
+	Callback = function()
+        while true and task.wait() do
+            for i,v in pairs(game:GetService("Workspace")["Glass Bridge"].GlassPane:GetDescendants()) do
+               if v.Name == 'TouchInterest' then
+                   v.Parent.Transparency = 1
+                   end
+               end
+            end
+    end
+})
+
+PopularTab:AddButton({
+	Name = "SS Module",
+	Callback = function()
+        --[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local navigate_next = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-7.03981016e-08, 0, 0.00941176433, 0)
+Frame.Size = UDim2.new(0, 867, 0, 34)
+
+navigate_next.Name = "navigate_next"
+navigate_next.Parent = Frame
+navigate_next.BackgroundTransparency = 1
+navigate_next.LayoutOrder = 12
+navigate_next.Position = UDim2.new(-0.000576701248, 0, 0.117647059, 0)
+navigate_next.Size = UDim2.new(0, 25, 0, 26)
+navigate_next.ZIndex = 2
+navigate_next.Image = "rbxassetid://3926305904"
+navigate_next.ImageRectOffset = Vector2.new(444, 844)
+navigate_next.ImageRectSize = Vector2.new(36, 36)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.155709341, 0, 0.117647059, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 26)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Render Hub SS Module activated."
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 30
+    end
+})
