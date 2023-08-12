@@ -11004,3 +11004,23 @@ OFTab:AddButton({
         })
   	end    
 })
+
+local PSXTab = Window:MakeTab({
+	Name = "🐾Pet Sim X",
+	Icon = "",
+	PremiumOnly = false
+})
+
+PSXTab:AddButton({
+	Name = "Project Meow",
+	Callback = function()
+        loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+  	end    
+})
+
+PSXTab:AddButton({
+	Name = "PSX Gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DeezScripts/PsxStScripts69/main/scripts/sign/petchanger/unallhoverboards"))();
+  	end    
+})
