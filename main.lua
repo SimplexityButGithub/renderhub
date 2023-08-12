@@ -9319,6 +9319,11 @@ InfoTab:AddParagraph("Coding","We thank OrionLibrary for making this possible. T
 
 InfoTab:AddParagraph("Designers","Orion Lib & Simplexity made the design.")
 
+InfoTab:AddLabel("More from us:")
+
+InfoTab:AddParagraph("Hmm??","This section seems to be empty...")
+
+
 local PopularTab = Window:MakeTab({
 	Name = "WW Popular",
 	Icon = "",
