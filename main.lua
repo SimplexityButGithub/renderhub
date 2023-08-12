@@ -29,7 +29,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local PlayerTab = Window:MakeTab({
-	Name = "Movement",
+	Name = "🌠Movement",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -759,7 +759,7 @@ Name = <string> - The name of the section.
 ]]
 
 local AdminTab = Window:MakeTab({
-	Name = "Admin Scripts",
+	Name = "👑Admin Scripts",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -9304,7 +9304,7 @@ Callback = <function> - The function of the button.
 ]]
 
 local InfoTab = Window:MakeTab({
-	Name = "Credits/Info",
+	Name = "ℹ️Credits/Info",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -9325,7 +9325,7 @@ InfoTab:AddParagraph("Hmm??","This section seems to be empty...")
 
 
 local PopularTab = Window:MakeTab({
-	Name = "WW Popular",
+	Name = "♾️WW Popular",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -10595,7 +10595,7 @@ Callback = <function> - The function of the button.
 ]]
 
 local MobileTab = Window:MakeTab({
-	Name = "Mobile",
+	Name = "📱Mobile",
 	Icon = "",
 	PremiumOnly = false
 })
@@ -11029,3 +11029,22 @@ PSXTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/DeezScripts/PsxStScripts69/main/scripts/sign/petchanger/unallhoverboards"))();
   	end    
 })
+
+InfoTab:AddParagraph("Render Hub Owners","bigbaldheadyoALT, geniale_jacke")
+
+local versionTab = Window:MakeTab({
+	Name = "🖥️Version",
+	Icon = "",
+	PremiumOnly = false
+})
+
+versionTab:AddParagraph("Version","0.7")
+versionTab:AddParagraph("Additional Info","Pre-Beta")
+
+local fakeerrorTab = Window:MakeTab({
+	Name = "❌Errors",
+	Icon = "",
+	PremiumOnly = false
+})
+
+fakeerrorTab:AddParagraph("1 errors","❌Didnt find Workspace/chat.lua.")
