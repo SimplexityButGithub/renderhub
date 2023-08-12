@@ -5,4 +5,7 @@ Render Hub was created. Nothing more.
 Added 2 new Tabs.
 
 //Changelog 0.2 Update [ALPHA]
-Currently in development.
+New tab.
+
+//Changelog 0.3 Update [ALPHA]
+Added 5 new Tabs and over 10 more scripts.
