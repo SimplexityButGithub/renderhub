@@ -18,3 +18,6 @@ Added 2 new scripts and a new Tab.
 
 //Changelog 0.6 Update [Pre-Beta]
 Added 1 new tab.
+
+//Changelog 0.7 Update [Pre-Beta]
+3 new Tabs, 10+ scripts added.
