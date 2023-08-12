@@ -10650,3 +10650,351 @@ PopularTab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local DoorsTab = Window:MakeTab({
+	Name = "👁️Doors",
+	Icon = "",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+DoorsTab:AddButton({
+	Name = "Vynixus",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+DoorsTab:AddButton({
+	Name = "MSDoors",
+	Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+DoorsTab:AddButton({
+	Name = "BlackKing",
+	Callback = function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))() 
+  	end    
+})
+
+local OderTab = Window:MakeTab({
+	Name = "🏠Brookhaven RP",
+	Icon = "",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+OderTab:AddButton({
+	Name = "Ice Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+OderTab:AddButton({
+	Name = "Brookhaven GUI",
+	Callback = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/60832e7d04766a6381194d7502fbb1e8/raw/fbecd900a62e1fa054998f02084475b6c4ed8f18/woah", true))()
+  	end    
+})
+
+OderTab:AddButton({
+	Name = "RP Admin (IY)",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+local GoatTab = Window:MakeTab({
+	Name = "🔫Arsenal",
+	Icon = "",
+	PremiumOnly = false
+})
+
+GoatTab:AddButton({
+	Name = "Thunder Client",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DuhwahScripts/ArsenalBoltsHub/main/source"))()
+  	end    
+})
+
+GoatTab:AddButton({
+	Name = "Silent Aim",
+	Callback = function()
+        OrionLib:MakeNotification({
+            Name = "Success!",
+            Content = "Silent Aim enabled.",
+            Image = "",
+            Time = 10
+        })
+        
+        --[[
+        Title = <string> - The title of the notification.
+        Content = <string> - The content of the notification.
+        Image = <string> - The icon of the notification.
+        Time = <number> - The duration of the notfication.
+        ]]
+  	end    
+})
+
+GoatTab:AddButton({
+	Name = "Owlhub Arsenal",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+  	end    
+})
+
+local FunTab = Window:MakeTab({
+	Name = "😛Fun",
+	Icon = "",
+	PremiumOnly = false
+})
+
+FunTab:AddButton({
+	Name = "Fling Gui",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+  	end    
+})
+
+FunTab:AddButton({
+	Name = "Syntax",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+  	end    
+})
+
+FunTab:AddButton({
+	Name = "Goofy Ahh Hub",
+	Callback = function()
+        local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow("i present")
+
+local b = w:CreateFolder("the goofy ahh script ")
+local c = w:CreateFolder("COLLECTION")
+local d = w:CreateFolder("scripts")
+
+d:Button("Musical feet",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.PlaybackSpeed = 1
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.Volume = 10
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.SoundId = "http://www.roblox.com/asset/?id=142376088"
+end)
+d:Button("Mr Krabs walk",function()
+game:GetService"RunService".RenderStepped:Connect(function()
+spawn(function()
+for i,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+if v.Name == "WalkAnim" or v.Name == "RunAnim" then
+   v:AdjustSpeed(10)
+   end
+end
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.PlaybackSpeed = 1
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.Volume = 10
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.SoundId = "http://www.roblox.com/asset/?id=3426632334"
+end)
+end)
+end)
+d:Button("ghost",function()
+
+if game.Players.LocalPlayer.Character.Humanoid.RigType == Enum.HumanoidRigType.R6 then
+spawn(function()
+local speaker = game.Players.LocalPlayer
+local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://27432686"
+    local bruh = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+bruh:Play()
+bruh:AdjustSpeed(0)
+speaker.Character.Animate.Disabled = true
+
+end)
+else
+spawn(function()
+local speaker = game.Players.LocalPlayer
+local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://507776043"
+    local bruh = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+bruh:Play()
+bruh:AdjustSpeed(0)
+speaker.Character.Animate.Disabled = true
+end)    
+end
+local air = Instance.new("Part", workspace)
+air.Size = Vector3.new(7, 2, 3)
+air.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0, -4, 0)
+air.Transparency = 1
+air.Anchored = true
+air.Name = "Airwalk"
+game:GetService"RunService".RenderStepped:Connect(function()
+air.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0, -4, 0)
+end)
+local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
+local u = game.Players.LocalPlayer
+local urchar = u.Character
+task.spawn(function()
+qUp = Mouse.KeyUp:Connect(function(KEY)
+if KEY == 'q' then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,-3,0)
+end
+end)
+eUp = Mouse.KeyUp:Connect(function(KEY)
+if KEY == 'e' then
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0,1,0)
+end
+end)
+end)
+spawn(function()
+for _, v in pairs(game:GetDescendants()) do
+               if v:IsA("BasePart") and v.Name ~= "Airwalk"  then
+                   v.CanCollide = false
+               end
+end
+end)
+end)
+d:Button("nuke simulator",function()
+local args = {
+   [1] = "oh no the nukes are coming",
+   [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(0.5)
+local hi = Instance.new("Sound")
+hi.Name = "Sound"
+hi.SoundId = "http://www.roblox.com/asset/?id=9060808331"
+hi.Volume = 10
+hi.Looped = true
+hi.archivable = false
+hi.Parent = game.Workspace
+hi:Play()
+wait(3)
+game.Players.LocalPlayer:Kick("your fat ass legs stopped working because you cant take a step without going to the hospital and you died from the nukes")end)
+d:Button("random word speak",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/angeld23/raw-text-host/master/condensed_english_words", true))()
+local mt = getrawmetatable(game)
+local old = mt.__namecall
+setreadonly(mt,false)
+mt.__namecall = newcclosure(function(self, ...)
+ local args = {...}
+ if getnamecallmethod() == 'FireServer' and self.Name == 'SayMessageRequest' then
+   args[1] = ENGLISH_WORDS[math.random(1, #ENGLISH_WORDS)]
+ end
+ return old(self, unpack(args))
+end)
+end)
+d:Button("goofy ahh walk",function()
+game:GetService"RunService".RenderStepped:Connect(function()
+spawn(function()
+if game.Players.LocalPlayer.Character:FindFirstChild("Animate") then
+   game.Players.LocalPlayer.Character.Animate.run.RunAnim.AnimationId = game.Players.LocalPlayer.Character.Animate.swimidle.SwimIdle.AnimationId
+    game.Players.LocalPlayer.Character.Animate.walk.WalkAnim.AnimationId = game.Players.LocalPlayer.Character.Animate.swimidle.SwimIdle.AnimationId
+end
+end)
+end)
+game:GetService"RunService".RenderStepped:Connect(function()
+spawn(function()
+
+for i,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+if v.Name == "WalkAnim" or v.Name == "RunAnim" then
+   v:AdjustSpeed(20)
+   end
+end
+end)
+end)
+end)
+  	end    
+})
+
+local OFTab = Window:MakeTab({
+	Name = "🔥Owner's Favs",
+	Icon = "",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+OFTab:AddButton({
+	Name = "Swagmode V2 (DaHood)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+OFTab:AddButton({
+	Name = "IceHub (RP Games)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+  	end    
+})
+
+OFTab:AddButton({
+	Name = "IY (Universal)",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+OFTab:AddButton({
+	Name = "Thunder Client (Arsenal)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DuhwahScripts/ArsenalBoltsHub/main/source"))()
+  	end    
+})
+
+OFTab:AddButton({
+	Name = "Eclipse (MM2)",
+	Callback = function()
+        getgenv().mainKey = "nil"
+ 
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+  	end    
+})
+
+OFTab:AddButton({
+	Name = "Vynixus (MM2)",
+	Callback = function()
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+  	end    
+})
+
+OFTab:AddButton({
+	Name = "Vynixus (DOORS)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+  	end    
+})
+
+
+
+
+print("%username% executed Render Hub.")
