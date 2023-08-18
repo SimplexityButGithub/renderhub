@@ -11143,3 +11143,25 @@ TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 30
     end
 })
+
+OFTab:AddButton({
+	Name = "Harked Reborn V2 Loader",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SimplexityButGithub/harkedloader/main/harkedloader.lua'))()
+
+        local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Harked Notificaion";
+	Text = "The loader has been injected! Injections: Injected Harked Local Script into ServerScriptService which loads Harked! SS has been bypassed!              ed in ReplicatedStorage but you can also just search for games on YT! SS Script has also been put in ServerScriptService, and the last thing injected is the SS Bypasser Module put in the HarkedLoad folder in Workspace!";
+	Duration = 300;
+	--Callback here
+	Button1 = "Perfect!";
+})
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
