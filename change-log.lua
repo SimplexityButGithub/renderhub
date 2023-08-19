@@ -24,3 +24,6 @@ Added 1 new tab.
 
 //Changelog 0.8 Update [Pre-Beta]
 4 new Tabs, 10+ scripts added.
+
+//Changelog 0.9 Update [Pre-Beta]
+3 tabs, 5 scripts.
