@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 OrionLib:MakeNotification({
-	Name = "☄️Render Hub is loading!",
-	Content = "by Simplexity",
+	Name = "Render Hub loaded",
+	Content = "by Simplexity & KALI#0001",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -11038,7 +11038,7 @@ local versionTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-versionTab:AddParagraph("Version","0.8")
+versionTab:AddParagraph("Version","0.9")
 versionTab:AddParagraph("Additional Info","Pre-Beta")
 
 local fakeerrorTab = Window:MakeTab({
