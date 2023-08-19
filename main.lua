@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 OrionLib:MakeNotification({
-	Name = "Render Hub loaded",
-	Content = "by Simplexity & KALI#0001",
+	Name = "☄️Render Hub is loading!",
+	Content = "by Simplexity",
 	Image = "rbxassetid://4483345998",
 	Time = 10
 })
@@ -14,7 +14,7 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 
-local Window = OrionLib:MakeWindow({Name = "Render Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RenderHubConfig"})
+local Window = OrionLib:MakeWindow({Name = "☄️Render Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RenderHubConfig"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -11165,3 +11165,49 @@ CoreGui:SetCore("SendNotification", {
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+local RaceClickerTab = Window:MakeTab({
+	Name = "🏅Race Clicker",
+	Icon = "",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+RaceClickerTab:AddButton({
+	Name = "Race Clicker GUI",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/HecAyid9'))()
+    end
+})
+
+RaceClickerTab:AddButton({
+	Name = "Tora Race Clicker GUI",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0raceclicker", true))()
+    end
+})
+
+local DonateTab = Window:MakeTab({
+	Name = "💰PLS DONATE",
+	Icon = "",
+	PremiumOnly = false
+})
+
+DonateTab:AddButton({
+	Name = "Fake Donation (YS)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/gdvdg"))()
+    end
+})
+
+DonateTab:AddButton({
+	Name = "PLS DONATE Gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+    end
+})
