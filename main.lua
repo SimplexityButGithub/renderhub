@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 OrionLib:MakeNotification({
-	Name = "☄️Render Hub loading☄️",
-	Content = "by Simplexity",
+	Name = "Render Hub loaded",
+	Content = "by Simplexity & KALI#0001",
 	Image = "rbxassetid://4483345998",
-	Time = 3
+	Time = 10
 })
 
 --[[
@@ -14,7 +14,7 @@ Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
 
-local Window = OrionLib:MakeWindow({Name = "☄️Render Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RenderHubConfig"})
+local Window = OrionLib:MakeWindow({IntroText = "Render Hub",Name = "Render Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RenderHub"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -11038,8 +11038,8 @@ local versionTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-versionTab:AddParagraph("Version","0.9")
-versionTab:AddParagraph("Additional Info","Pre-Beta")
+versionTab:AddParagraph("Version","1.0")
+versionTab:AddParagraph("Additional Info","Beta")
 
 local fakeerrorTab = Window:MakeTab({
 	Name = "❌Errors",
@@ -11047,7 +11047,7 @@ local fakeerrorTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-fakeerrorTab:AddParagraph("1 errors","❌Didnt find Workspace/chat.lua.")
+fakeerrorTab:AddParagraph("0 error(s)","No error(s)!")
 
 OFTab:AddButton({
 	Name = "spidorr autowinnin",
