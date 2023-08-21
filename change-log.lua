@@ -27,3 +27,6 @@ Added 1 new tab.
 
 //Changelog 0.9 Update [Pre-Beta]
 3 tabs, 5 scripts.
+
+//Changelog 1.0 Update [BETA]
+first beta yayy
