@@ -11145,7 +11145,7 @@ TextLabel.TextSize = 30
 })
 
 OFTab:AddButton({
-	Name = "Harked Reborn V2 Loader",
+	Name = "Harked Reborn V2 Loader (Need SS Module!)",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/SimplexityButGithub/harkedloader/main/harkedloader.lua'))()
 
