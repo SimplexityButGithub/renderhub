@@ -29,4 +29,4 @@ Added 1 new tab.
 3 tabs, 5 scripts.
 
 //Changelog 1.0 Update [BETA]
-first beta yayy
+first beta yayy, added a documentation.
